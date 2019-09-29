@@ -1,0 +1,18 @@
+SQL = Structured Query Language
+
+各数据库厂商还会支持特定的数据类型，例如JSON。
+
+数据模型分为层次模型、网状模型、关系模型
+
+BIGINT\VARCHAR(N)是日常用于最广泛的数据类型
+
+DDL-定义数据（增删表，修改表结构）、DML-管理数据（增删改数据）、DQL-查询数据
+
+[200~要在Linux上安装MySQL，可以使用发行版的包管理器。例如，Debian和Ubuntu用户可以简单地通过命令apt-get install mysql-server安装最新的MySQL版本。
+
+运行MySQL
+MySQL安装后会自动在后台运行。为了验证MySQL安装是否正确，我们需要通过mysql这个命令行程序来连接MySQL服务器。
+
+在命令提示符下输入mysql -u root -p，然后输入口令，如果一切正确，就会连接到MySQL服务器，同时提示符变为mysql>。
+
+输入exit退出MySQL命令行。注意，MySQL服务器仍在后台运行。
